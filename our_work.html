@@ -1,0 +1,508 @@
+﻿<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Official Florida Solar</title>
+  <meta charset="UTF-8">
+  <link href="./style/style.css" rel="stylesheet" type="text/css">
+  <link href="./style/style2.css" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<style>
+  .form-container {display: none;}
+</style>
+<body>
+  <div class="bcont">
+  <div class="blcircle"></div>
+  <div class="bodyc">
+  <header class="header">
+       <div class="form-container">
+      <div class="tab-buttons-block">
+        <a href="#" class="residential-button" id="resButton">
+          <img class="home-icon i1" src="./style/img/icon_house.svg" hieght="23" width="21">
+          <img class="home-icon i2" src="./style/img/icon_house2.svg" hieght="23" width="21">
+          <span id="resSpan">
+            Residential
+          </span>
+        </a> 
+        <a href="#" class="commercial-button" id="comButton">
+          <img class="commercial-icon i1" src="./style/img/icon.svg" hieght="28" width="22">
+          <img class="commercial-icon i2" src="./style/img/icon2.svg" hieght="28" width="22">
+ 
+          <span id="comSpan">
+            Comercial
+          </span> 
+        </a>
+      </div>
+      <div class="form-block">
+        <div class="form f1" id="form1">
+          <span class="form-name">
+            Get a Quick Solar Proposal
+          </span>
+          <p class="form-text">
+            See How Many Solar Panels You Need For Your Home
+          </p>
+          <form class="free-quote-form" id="formQuote">
+            <div class="fields">
+            <input id="fname" name="fname" placeholder="First Name *" />
+            <input id="lname" name="lname" placeholder="Last Name *" />
+
+            <div class="select">
+              <p>Electric Bill*</p>
+              <ul class="options">
+                <li class="disabled">Picklist Field:</li>
+                <li>$50-100</li>
+                <li>$101-150</li>
+                <li>$151-200</li>
+                <li>$201+</li>
+              </ul>
+              <input type="hidden" id="bill" name="bill" value="" />
+              <img class="arr" src="./style/img/arrow.svg" />
+            </div>
+
+            <div class="select">
+              <p>Home Type*</p>
+              <ul class="options">
+                <li class="disabled">Picklist Value:</li>
+                <li>Single Family</li>
+                <li>Condo/Apartment</li>
+                <li>Town House</li>
+                <li>Mobile Home</li>
+              </ul>
+              <input type="hidden" id="hometype" name="hometype" value="" />
+              <img class="arr" src="./style/img/arrow.svg" />
+            </div>
+
+
+            <input id="address" name="address" placeholder="Street Address" />
+            <input id="city" name="city" placeholder="City*" />
+            <input id="zip" name="zip" placeholder="Zip Code *" />
+            <input id="phone" name="phone" placeholder="Phone *" />
+            <input id="emailf" name="emailf" placeholder="Email *" />
+            
+            
+             </div>
+            <button class="submit-form-button" type="submit" for="formQuote">
+
+              <span>
+                Request a quote
+              </span>
+            </button>
+          </form>
+        </div>
+        <div class="form f2" id="form2">
+          <span class="form-name">
+            Commercial
+          </span>
+          <p class="form-text">
+            You're just one step away from getting a free no-obligation quote 
+            from Sphere Solar Energy.
+          </p>
+          <form class="commercial-form" id="formCommercial">
+            <div class="fields">
+            <input placeholder="First Name *">
+            <input placeholder="Last Name *">
+            <input placeholder="Email *">
+            <input placeholder="Phone *">
+            <input placeholder="Zip Code *">
+          </div>
+            <button class="submit-form-button" type="submit" for="formQuote">
+              <span>
+                Request a quote
+              </span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <section class="logo-line">
+      <div class="headcontent hd">
+      <img class="logo" src="./style/img/logo.svg" />
+      <div class="navc">
+      <nav class="nav mobile">
+        <input class="nav-check" type="checkbox" id="showmenu"/>
+        <label class="nav-back" for="showmenu"></label>
+        <label class="nav-showmenu no-back" for="showmenu" id="showmenu2">
+          <div class="line" id="line"></div>
+        </label>
+        <ul class="navigation-list">
+          <a href="index.html">
+            <li class="navigation-item">
+              Home
+            </li>
+          </a>
+
+          <a href="#" id="subHead">
+            <li class="navigation-item">
+              Solar Education 
+              <img class="chevron" src="./style/img/chevron.svg">
+            </li>
+
+            <ul class="sub-navigation-list">
+              <a href="how_solar_works.html">
+                <li class="navigation-item">
+                  How Solar Works
+                </li>
+              </a>
+              <a href="benefits_of_solar.html">
+                <li class="navigation-item">
+                  Benefits of Solar
+                </li>
+              </a>
+              <a href="cost.html">
+                <li class="navigation-item">
+                  How much does solar cost?
+                </li>
+              </a>
+              <a href="financing.html">
+                <li class="navigation-item">
+                  Solar Loans and Financing
+                </li>
+              </a>
+              <a href="rebates_and_incentives.html">
+                <li class="navigation-item">
+                  Rebates and incentives
+                </li>
+              </a>
+              <a href="maintenance.html">
+                <li class="navigation-item">
+                  Solar Panel Maintenance
+                </li>
+              </a>
+              
+            </ul>
+          </a>
+
+          <a href="solar_incentives.html">
+            <li class="navigation-item">
+              Solar Incentives
+            </li>
+          </a>
+
+          <a href="about_us.html">
+            <li class="navigation-item">
+              About Us
+            </li>
+          </a>
+
+          <a href="case_studies.html">
+            <li class="navigation-item">
+              Case Studies
+            </li>
+          </a>
+
+          <a href="blog.html">
+            <li class="navigation-item">
+              Blog
+            </li>
+          </a>
+
+          <a href="https://floridasunshinesavings.lpages.co/get-paid-by-your-utility/" target="_blank">
+            <li class="navigation-item">
+              Does My Home Qualify For Solar?
+            </li>
+          </a>
+          <a href="free_quote.html">
+            <li class="navigation-item">
+              Get a Free Quote
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </div>
+
+
+
+      <div class="logo-line-info">
+        <div class="contacts-block">
+          <div class="email-block">
+            <div class="email-icon-block">
+              <img class="mail-icon" src="./style/img/icon_mail.svg" width="30" height="23" />
+            </div>
+            <a class="email" href="mailto:info@soltechpwr.com">
+              info@soltechpwr.com
+            </a>
+          </div>
+          <div class="phone-block">
+            <div class="phone-icon-block">
+              <img class="phone-icon" src="./style/img/icon_phone.svg" hieght="20" width="17" />
+            </div>
+            <a class="number" href="tel:800-349-3080">
+              800-349-3080
+            </a>
+          </div>
+          
+      </div>
+      
+      </div>
+    </div>
+    </section>
+    <nav class="nav screen">
+      <div class="headcontent">
+      <input class="nav-check" type="checkbox" id="showmenu"/>
+      <label class="nav-back" for="showmenu"></label>
+      <label class="nav-showmenu" for="showmenu">
+        <svg width="20" height="20">
+          <rect width="100%" height="16.6%" x="0" y="0" rx="2" ry="2" fill="white"></rect>
+          <rect width="100%" height="16.6%" x="0" y="7.5" rx="2" ry="2" fill="white"></rect>
+          <rect width="100%" height="16.6%" x="0" y="14.5" rx="2" ry="2" fill="white"></rect>
+        </svg>
+      </label>
+      <ul class="navigation-list">
+        <a href="index.html">
+          <li class="navigation-item">
+            Home
+          </li>
+        </a>
+
+        <a href="#">
+          <li class="navigation-item sub2" id="subHead2">
+            Solar Education
+            <div class="chevron2">
+
+            </div>
+          </li>
+
+          <ul class="sub-navigation-list2">
+            <a href="how_solar_works.html">
+              <li class="navigation-item">
+                How Solar Works
+              </li>
+            </a>
+            <a href="benefits_of_solar.html">
+              <li class="navigation-item">
+                Benefits of Solar
+              </li>
+            </a>
+            <a href="cost.html">
+              <li class="navigation-item">
+                How much does solar cost?
+              </li>
+            </a>
+            <a href="financing.html">
+              <li class="navigation-item">
+                Solar Loans and Financing
+              </li>
+            </a>
+            <a href="rebates_and_incentives.html">
+              <li class="navigation-item">
+                Rebates and incentives
+              </li>
+            </a>
+            <a href="maintenance.html">
+              <li class="navigation-item">
+                Solar Panel Maintenance
+              </li>
+            </a>
+            
+          </ul>
+
+        </a>
+
+        <a href="solar_incentives.html">
+          <li class="navigation-item">
+            Solar Incentives
+          </li>
+        </a>
+
+        <a href="about_us.html">
+          <li class="navigation-item">
+            About Us
+          </li>
+        </a>
+        
+          <a href="case_studies.html">
+            <li class="navigation-item">
+              Case Studies
+            </li>
+          </a>
+
+        <a href="blog.html">
+          <li class="navigation-item">
+            Blog
+          </li>
+        </a>
+
+        <a href="https://floridasunshinesavings.lpages.co/get-paid-by-your-utility/" target="_blank">
+          <li class="navigation-item">
+            Does My Home Qualify For Solar?
+          </li>
+        </a>
+        <a href="free_quote.html">
+          <li class="navigation-item">
+            Get a Free Quote
+          </li>
+        </a>
+      </ul>
+    </div>
+    </nav>
+
+  </header>
+
+
+  <div class="pagetitle-block">
+      <div class="header-text-block container">
+        <span class="header-title part1 pb">
+          Our Work
+        </span>
+      </div>
+    <img src="style/img/how_solar_works5.jpg" class="headerimg" alt="section 1 image" />
+  </div>
+  
+  <main>
+
+    <section style="min-height: 400px; background: #f2f2f2; display: flex; align-items: center;justify-content: center;">
+       <div class="container">
+           <h4><strong>Coming Soon</strong></h4>
+       </div>
+    </section>
+
+
+
+  </main>
+
+
+   <footer>
+    <section class="partners-section"> 
+      <div class="partners-logo-box">
+        <img src="./style/img/logo_partner1.jpg" width="224" height="83">
+        <img src="./style/img/logo_partner2.jpg" width="199" height="99">
+      </div>
+    </section>
+    <section class="footer-contacts">
+      <div class="footer-contacts-block">
+        <div class="adress-block">
+          <div class="adress-icon-block">
+            <img class="location-icon" src="./style/img/icon_location.svg" hieght="21" width="16">
+          </div>
+          <span class="adress">
+            500 S Australian Ave Ste 600
+West Palm Beach 33401 
+          </span>
+        </div>
+        <div class="phone-block footer">
+          <div class="phone-icon-block">
+            <img class="phone-icon" src="./style/img/icon_phone.svg" hieght="20" width="17">
+          </div>
+          <a class="number" href="tel:800-349-3080">
+            800-349-3080
+          </a>
+        </div>
+        <div class="email-block footer">
+          <div class="email-icon-block">
+            <img class="mail-icon" src="./style/img/icon_mail.svg" width="30" height="23">
+          </div>
+          <a class="email" href="mailto:info@soltechpwr.com">
+            info@soltechpwr.com
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="general-info-section">
+      <div class="general-info-block">
+        <div class="footer-logo-block">
+          <img src="./style/img/logo_footer.png" width="250" height="83">
+
+          <p class="footer-main-text">
+            We are passionate about contributing to a greener planet that does not 
+            depend on energy from fossil fuels. We aim to accelerate the adoption of 
+            the abundant and free Solar Energy that nature provides us to create clean 
+            energy independence in our communities.
+          </p>
+        </div>
+      </div>
+      <div class="footer-quote-info">
+        <span class="footer-quote-title">
+          Solar Quote
+        </span>
+        <a href="free_quote.html" class="footer-quote-buttton">
+          <span>
+            Get a Free Quote
+          </span>
+        </a>
+      </div>
+      <div class="footer-nav-block">
+        <span class="footer-nav-title">
+          QUICK LINKS
+        </span>
+        <ul class="footer-nav-list">
+          <a href="index.html">
+            <li class="footer-navigation-item">
+              Home
+            </li>
+          </a>
+          <a href="about_us.html">
+            <li class="footer-navigation-item">
+              About Us
+            </li>
+          </a>
+          <a href="about_us.html">
+            <li class="footer-navigation-item">
+              Case Studies
+            </li>
+          </a>
+          <a href="affordability.html">
+            <li class="footer-navigation-item">
+              Affordability
+            </li>
+          </a>
+          <a href="process.html">
+            <li class="footer-navigation-item">
+              The Process
+            </li>
+          </a>
+          <a href="our_work.html">
+            <li class="footer-navigation-item">
+              Our Work
+            </li>
+          </a>
+                <a href="residential_solar.html" class="sub-item">
+                  <li class="footer-sub-item">
+                    Residential solar
+                  </li>
+                </a>
+                <a href="commercial_solar.html" class="sub-item">
+                  <li class="footer-sub-item">
+                    Commercial solar
+                  </li>
+                </a>
+                <a href="portfolio.html" class="sub-item">
+                  <li class="footer-sub-item">
+                    Project portfolio
+                  </li>
+                </a>
+          <a href="blog.html">
+            <li class="footer-navigation-item">
+              Blog
+            </li>
+          </a>
+          <a href="media.html">
+            <li class="footer-navigation-item">
+              Media
+            </li>
+          </a>
+          <a href="contact.html">
+            <li class="footer-navigation-item">
+              Contact
+            </li>
+          </a>
+        </ul>
+      </div>
+    </section>
+    <section class="rights-info-section">
+      <span class="rights-text">
+        © COPYRIGHT 2021 Official Florida Solar LLC. ALL RIGHTS RESERVED.
+      </span>
+    </section>
+  </footer>
+
+
+  <script src="./style/jquery.min.js"></script>
+  <script src="./style/script.js"></script>
+</div>
+</div>
+</body>
+
+
+</html>
